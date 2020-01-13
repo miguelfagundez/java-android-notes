@@ -5,6 +5,7 @@
 * [Memory Leaks](#memory-leaks)
 * [References in Java](#references-in-java)
 * [Garbage Collector](#garbage-collector)
+* [Android Profiler vs DDMS](#android-profiler-vs-ddms)
 * [Status](#status)
 * [Why?](#why?)
 * [Contact](#contact)
@@ -23,6 +24,9 @@ I compare the three references in Java:
 I will try to explain garbage collection in simple words. There are so many
 articles and documents which are too complex to understand. So, this approach
 is easy and straight to the point.
+
+## Android Profiler vs DDMS
+Some notes will be presented.
 
 ## Status
 Project is: _in progress_
