@@ -1,4 +1,4 @@
-# Reference view outside the UI thread.
+# View outside the UI thread.
 If a view is unused but still referenced, this view and its whole subhierarchy of children cannot be freed. So, its whole associated activity also stays in memory. To fix it, we must avoid defining views outside the UI thread.
 
 Leak memory:
