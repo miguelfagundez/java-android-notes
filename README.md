@@ -29,7 +29,7 @@ is easy and straight to the point.
 Some notes will be presented.
 
 ## Status
-Project is: _in progress_
+This document is: _in progress_
 
 ## Why?
 These documents are made with the intention to give some basic
