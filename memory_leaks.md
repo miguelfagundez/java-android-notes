@@ -5,7 +5,9 @@ There are multiple problems due to memory leaks. These problems go to erratic be
 
 We have to try to evaluate during early stages of a development these issues. There are common patterns that can be avoid.
 
-![MemoryLeak](https://drive.google.com/file/d/1yb99YkIIW7rutfUX4ngddC1ItIUfIG54/view)
+![leak](https://www.holdapp.com/sites/default/files/blog_img/leak.png)
+
+Android Performance Patterns: [image source!](https://youtu.be/BkbHeFHn8JY?t=43s)
 
 ## View outside the UI thread.
 If a view is unused but still referenced, this view and its whole subhierarchy of children cannot be freed. So, its whole associated activity also stays in memory. To fix it, we must avoid defining views outside the UI thread.
