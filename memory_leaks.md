@@ -74,7 +74,7 @@ code line 2
 ```
 
 # Singleton object.
-If this object references an activity, then a leak memory could be occurred. One way to handle it is creating a new method that must be called in the OnDestroy callback to clear the reference.
+If this object references an activity, then a leak memory could be occurred. One way to handle is creating a new method that must be called in the OnDestroy callback to clear the reference.
 
 Leak memory:
 ```
